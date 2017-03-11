@@ -29,8 +29,13 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 
 /* We start writing out flexbox here. The above is just page setup */
+/* Default direction */
+/* Main axis = left to right and Cross Axis = top to bottom */
+/* flex-direction: row; is always the default */
+
 .container {
   display:flex;
   border:10px solid goldenrod;
   height:100vh;
+  flex-direction: column; /* Changes main axis direction from top to bottom */
 }
