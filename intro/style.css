@@ -34,32 +34,18 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* flex-direction: row; is always the default */
 /* align-items:center; centers the cross-axis */
 /* algin-items:baseline; aligns it by text */
+/* justify-content: space-between; does the main axis */
+/* algin-content: space-between; does the cross axis */
 
 .container {
   display: flex;
   border: 10px solid mistyrose;
-  align-items:center;
   height: 100vh;
-  flex-direction: column
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
 
-.box1 {
-  font-size: 30px;
+.box {
+  width: 33.33333%;
 }
-
-.box3 {
-  font-size: 150px;
-}
-
-.box4 {
-  font-size: 200px;
-}
-
-.box5 {
-  font-size: 10px;
-}
-
-.box10 {
-  font-size: 77px;
-}
-
