@@ -34,6 +34,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* flex-direction: row; is always the default */
 /* align-items:center; centers the cross-axis */
 /* algin-items:baseline; aligns it by text */
+/* justify-content: center; aligns main axis center */
 /* justify-content: space-between; does the main axis */
 /* algin-content: space-between; does the cross axis */
 
